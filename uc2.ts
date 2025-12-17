@@ -18,7 +18,7 @@ class AddressBook {
     this.contacts.push(contact);
   }
 
-  // ✅ UC-2 METHOD (INSIDE CLASS)
+  
   editContact(firstName: string, newCity: string): void {
     const person = this.contacts.find(c => c.firstName === firstName);
 
