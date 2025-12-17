@@ -4,6 +4,3 @@ sortByName(): void {
   );
 }
 
-/*addressBook.sortByName();
-addressBook.contacts.forEach(p => console.log(p.toString()));
-*/
