@@ -17,7 +17,6 @@ class AddressBook {
   addContact(contact: Contact): void {
     this.contacts.push(contact);
   }
-
   
   editContact(firstName: string, newCity: string): void {
     const person = this.contacts.find(c => c.firstName === firstName);
